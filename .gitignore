@@ -1,0 +1,14 @@
+# The challenge data stays on your machine. Never commit it.
+data/
+*.zip
+usage.jsonl
+output.json
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+# Outputs quote message text in loop titles, so they are data too.
+out*.json
+*.out.json
+runs/
