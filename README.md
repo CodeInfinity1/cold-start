@@ -12,7 +12,7 @@ what it costs and where it is wrong.
 **Modes.** The default is rules only, and that is what runs when graded. The graders set `LLM_BASE_URL`,
 `LLM_API_KEY` and `LLM_MODEL` and count every token, but by default nothing calls them, so a graded run uses
 no tokens. An optional model step for loops and goals runs only when you also set `COLDSTART_USE_MODEL=1`.
-Its accuracy has not been measured with a real model.
+Tried on dev with real models, it gave no clear gain over the rules; `WRITEUP.md` has the numbers.
 
 | File | What it does |
 |---|---|
